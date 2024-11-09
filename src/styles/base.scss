@@ -1,10 +1,19 @@
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 @use '~@cloudscape-design/design-tokens' as cs;
+@use 'variables' as vars;
 
-body {
-  background: cs.$color-background-layout-main;
-  position: relative;
+// Override Cloudscape fonts with custom fonts
+:root {
+  // Override the base font
+  --font-family-base: #{vars.$font-family-custom};
+}
+
+body, 
+body * {
+  --font-family-base-dnvic8: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+  --font-family-header-o6h8cv: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
+  letter-spacing: normal !important;
 }
 
 .custom-main-header {
