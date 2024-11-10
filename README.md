@@ -1,12 +1,16 @@
 ## Cloudscape Design System Demos
 
-This package contains demo pages that follow [Cloudscape Design System](https://cloudscape.design) guidelines and use [Cloudscape components](https://cloudscape.design/components).
+This package contains a fork  that follow [Cloudscape Design System](https://cloudscape.design) guidelines and use [Cloudscape components](https://cloudscape.design/components). customized for brand adherence and alignment. This forked design system provides components and styles tailored for branding visual identity and design standards.
 
-Cloudscape is an open source design system for building intuitive, engaging, and inclusive user experiences at scale. It consists of an extensive set of guidelines to create web applications, along with the design resources and front-end components to streamline implementation.
+### Modifications Overview
 
-Cloudscape was built for and is used by Amazon Web Services (AWS) products and services. We created it in 2016 to improve the user experience across AWS web applications, and also to help teams implement those applications faster. Since then, we have continued enhancing the system based on customer feedback and research.
+This fork includes the following customizations:
 
-You can view the demos running live from the the [Cloudscape website 'demos' list](https://cloudscape.design/demos/).
+	•	Typography: Removal of Open Sans and updated fo SF font family, and letter-soacing adjustment.
+
+This fork is based on Cloudscape is an open source design system  built for and is used by Amazon Web Services (AWS) products and service.
+
+You can view the ordemos running live from the the [Cloudscape website 'demos' list](https://cloudscape.design/demos/).
 
 ### Build the project
 
